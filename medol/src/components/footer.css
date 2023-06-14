@@ -1,0 +1,77 @@
+.footer__bg{
+  margin: 25px 0;
+  background-repeat: no-repeat;
+  background-image: url('../images/footer//blur-hospital-clinic-interior 1.png');
+}
+
+.footer__strong {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  color: #595959;
+}
+
+.footer__list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.025em;
+  color: #5A5A5A;
+}
+
+.footer__list-link {
+  padding: 13px 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.footer__list-link:hover {
+  color: #fff;
+  background: #00C9C9;
+}
+
+.footer__list-item:hover {
+  color: #00C9C9;
+}
+
+.footer__full-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  color: #585858;
+}
+
+.footer__item-list {
+  margin: 5px 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.025em;
+  
+  color: #5A5A5A;
+}
+.footer__item-list:hover{
+  color: #00C9C9;
+  text-decoration: underline;
+}

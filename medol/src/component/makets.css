@@ -1,0 +1,568 @@
+.bg-img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/blur-hospital 1.png');
+}
+
+.nav__list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.025em;
+  color: #5A5A5A;
+}
+
+.nav__list-item:hover {
+  color: #00C9C9;
+}
+
+.face::before {
+  display: inline-block;
+  content: '';
+  width: 34px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-image: url('../images/logos/facebook-app-symbol 1.svg');
+  vertical-align: middle;
+}
+
+.flag::before {
+  display: inline-block;
+  content: '';
+  width: 36px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url('../images/logos/flag.svg');
+  vertical-align: middle;
+}
+
+.dropdown {
+  margin: 0 auto;
+}
+
+
+.dropdown-menu {
+  display: none;
+  animation-name: fade-on;
+  animation-duration: 0.5s;
+}
+
+.dropdown-menu2 {
+  display: block;
+  right: 0;
+  top: 55px;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-on {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.buttons {
+  background-color: transparent;
+}
+
+.search__input {
+  border: 1px solid #0D4C93;
+  width: 96%;
+  border-radius: 50px;
+}
+
+.search__input:hover {
+  border: 1px solid #00C9C9;
+  border-radius: 50px;
+}
+
+.search__close {
+  display: none;
+}
+
+.search__open {
+  display: flex;
+  top: 100%;
+  left: 10%;
+  display: block;
+  position: absolute;
+  width: 80%;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.search__close.show {
+  display: flex;
+  padding: 20px 50px;
+  top: 95%;
+  left: 10%;
+  position: absolute;
+  width: 80%;
+  background-color: #00C9C9;
+  animation-name: slide-out;
+  animation-duration: 0.5s;
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #0D4C93;
+}
+
+.list__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #0D4C93;
+}
+
+.hover:hover,
+.hover:active {
+  color:
+    #00C9C9;
+}
+
+.items {
+  border-radius: 19rem;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.header__hero-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.09em;
+
+  color: #0D4C93;
+}
+
+.header__hero-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #363535;
+}
+
+.header__hero-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.header__hero-link:hover {
+  background: #00C9C9;
+  opacity: 0.9;
+  border-radius: 35px;
+  color: #FFFFFF;
+}
+
+
+/* ===================== */
+
+.shop__card {
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0) 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.shop__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #0D4C93;
+}
+
+.shop__titles::before {
+  content: '';
+  display: block;
+  width: 220px;
+  height: 220px;
+  background-image: url('../images/shop/endeavor-large 1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto;
+}
+
+.img2::before {
+  background-image: url('../images/shop/img6 1.png');
+}
+
+.img3::before {
+  background-image: url('../images/shop/gallery_cs300_1 1.png');
+}
+
+.img4::before {
+  background-image: url('../images/shop/754-1 1.png');
+}
+
+.img5::before {
+  background-image: url('../images/shop/img5 1.png');
+}
+
+.img6::before {
+  background-image: url('../images/shop/pacemaker-advisa-mrishtsh222 1.png');
+}
+
+.shop__titles {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.105em;
+
+  color: #000000;
+}
+
+.list__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #0D4C93;
+}
+
+.hover:hover,
+.hover:active {
+  color:
+    #00C9C9;
+}
+
+.shop__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #0D4C93;
+}
+
+
+/* ===================== */
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+
+.servic__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0D4C93;
+}
+
+.servic__bg {
+  background-repeat: no-repeat;
+  background-image: url('../images/servic/Frame 3.png');
+}
+
+.card {
+  padding: 0 0 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+.card__img {
+  border-radius: 50px 50px 0 0;
+}
+
+
+.servic__link {
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* ======================= */
+
+.card-bodies {
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+  border-radius: 30px;
+}
+
+.about__inner {
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+  border-radius: 290px 50px 50px 0px;
+}
+
+.about__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.about__link {
+  padding: 15px 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #FFFFFF;
+
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+
+}
+
+.about__link:hover {
+  color: #FFFFFF;
+  background: #00C9C9;
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.about__img {
+  position: relative;
+}
+
+.about__img2 {
+  position: absolute;
+  left: 58px;
+  top: 60px;
+}
+
+.about__img3 {
+  position: absolute;
+  left: 110px;
+  top: 115px;
+}
+
+.about__img4 {
+  position: absolute;
+  left: 182px;
+  top: 250px;
+}
+
+/* ====================== */
+
+.news__card {
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.9;
+  border: 2px solid #F7F7F7;
+  border-radius: 35px;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.9;
+  border: 2px solid #F7F7F7;
+  border-radius: 35px;
+}
+
+.news__card-img {
+  border-radius: 35px;
+}
+
+.news__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0D4C93;
+}
+
+.news__card-link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #0D4C93;
+}
+
+.news__card-link:hover {
+  text-decoration: underline;
+  color: #00C9C9;
+}
+
+.news__card-time {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #0D4C93;
+}
+
+.news__card-links {
+  padding: 15px 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.news__card-links:hover {
+  color: #FFFFFF;
+  background: #00C9C9;
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+/* ================= */
+
+.footer__bg {
+  margin: 25px 0;
+  background-repeat: no-repeat;
+  background-image: url('../images/footer//blur-hospital-clinic-interior 1.png');
+}
+
+.footer__strong {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  color: #595959;
+}
+
+.footer__list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.025em;
+  color: #5A5A5A;
+}
+
+.footer__list-link {
+  padding: 13px 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.footer__list-link:hover {
+  color: #fff;
+  background: #00C9C9;
+}
+
+.footer__list-item:hover {
+  color: #00C9C9;
+}
+
+.footer__full-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  color: #585858;
+}
+
+.footer__item-list {
+  margin: 5px 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.025em;
+
+  color: #5A5A5A;
+}
+
+.footer__item-list:hover {
+  color: #00C9C9;
+  text-decoration: underline;
+}

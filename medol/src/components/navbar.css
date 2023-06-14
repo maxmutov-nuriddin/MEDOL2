@@ -1,0 +1,213 @@
+.bg-img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/blur-hospital 1.png');
+}
+
+.nav__list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.025em;
+  color: #5A5A5A;
+}
+
+.nav__list-item:hover {
+  color: #00C9C9;
+}
+
+.face::before {
+  display: inline-block;
+  content: '';
+  width: 34px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-image: url('../images/logos/facebook-app-symbol 1.svg');
+  vertical-align: middle;
+}
+
+.flag::before {
+  display: inline-block;
+  content: '';
+  width: 36px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url('../images/logos/flag.svg');
+  vertical-align: middle;
+}
+
+.dropdown {
+  margin: 0 auto;
+}
+
+
+.dropdown-menu {
+  display: none;
+  animation-name: fade-on;
+  animation-duration: 0.5s;
+}
+
+.dropdown-menu2 {
+  display: block;
+  right: 0;
+  top: 55px;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-on {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.buttons {
+  background-color: transparent;
+}
+
+.search__input {
+  border: 1px solid #0D4C93;
+  width: 96%;
+  border-radius: 50px;
+}
+
+.search__input:hover{
+  border: 1px solid #00C9C9;
+  border-radius: 50px;
+}
+
+.search__close {
+  display: none;
+}
+
+.search__open {
+  display: flex;
+  top: 100%;
+  left: 10%;
+  display: block;
+  position: absolute;
+  width: 80%;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.search__close.show {
+  display: flex;
+  padding: 20px 50px;
+  top: 95%;
+  left: 10%;
+  position: absolute;
+  width: 80%;
+  background-color: #00C9C9;
+  animation-name: slide-out;
+  animation-duration: 0.5s;
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #0D4C93;
+}
+
+.list__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #0D4C93;
+}
+
+.hover:hover,
+.hover:active {
+  color:
+    #00C9C9;
+}
+
+.items {
+  border-radius: 19rem;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.header__hero-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.09em;
+
+  color: #0D4C93;
+}
+
+.header__hero-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #363535;
+}
+
+.header__hero-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.header__hero-link:hover {
+  background: #00C9C9;
+  opacity: 0.9;
+  border-radius: 35px;
+  color: #FFFFFF;
+}

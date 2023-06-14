@@ -1,0 +1,40 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+
+.servic__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0D4C93;
+}
+
+.servic__bg {
+  background-repeat: no-repeat;
+  background-image: url('../../images/servic/Frame 3.png');
+}
+
+.card {
+  padding: 0 0 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+.card__img {
+  border-radius: 50px 50px 0 0;
+}
+
+
+.servic__link {
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

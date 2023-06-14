@@ -1,0 +1,64 @@
+.card-bodies {
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+  border-radius: 30px;
+}
+
+.about__inner {
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+  border-radius: 290px 50px 50px 0px;
+}
+
+.about__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.about__link {
+  padding: 15px 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #FFFFFF;
+
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  opacity: 0.9;
+  border-radius: 35px;
+
+}
+
+.about__link:hover {
+  color: #FFFFFF;
+  background: #00C9C9;
+  opacity: 0.9;
+  border-radius: 35px;
+}
+
+.about__img {
+position: relative;}
+
+.about__img2{
+  position: absolute;
+  left: 58px;
+  top: 60px;
+}
+.about__img3{
+  position: absolute;
+  left: 110px;
+  top: 115px;
+}
+.about__img4{
+  position: absolute;
+  left: 182px;
+  top: 250px;
+}
