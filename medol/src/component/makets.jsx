@@ -11,10 +11,7 @@ import location from '../images/logos/logo-loc.svg'
 import call from '../images/logos/phone-call.svg'
 import search from '../images/logos/search.svg'
 import slider from '../images/slide 1.png'
-// import location from '../images/logos/logo-loc.svg'
-// import call from '../images/logos/phone-call.svg'
 import Email from '../images/footer/email 1.svg'
-// import logo from '../images/logo 1.svg'
 
 import { AiOutlineCaretDown } from "react-icons/ai";
 import { ImCircleRight } from 'react-icons/im'
